@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	1D6058900D05DD3D006BFB54 /* BankBalance */ = {
+		activeExec = 0;
+		executables = (
+			6DAE6DFF1306F6EE00E17A36 /* BankBalance */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 6DAE6DFF1306F6EE00E17A36 /* BankBalance */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* BankBalance */;
+		codeSenseManager = 6DAE6E0D1306F71100E17A36 /* Code sense */;
+		executables = (
+			6DAE6DFF1306F6EE00E17A36 /* BankBalance */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					828,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 319223534;
+			PBXWorkspaceStateSaveDate = 319223534;
+		};
+		perUserProjectItems = {
+			6DAE6E0E1306F71C00E17A36 /* PBXTextBookmark */ = 6DAE6E0E1306F71C00E17A36 /* PBXTextBookmark */;
+			6DAE6E0F1306F71C00E17A36 /* PBXTextBookmark */ = 6DAE6E0F1306F71C00E17A36 /* PBXTextBookmark */;
+			6DAE6E101306F71C00E17A36 /* PBXTextBookmark */ = 6DAE6E101306F71C00E17A36 /* PBXTextBookmark */;
+			6DAE6E111306F71C00E17A36 /* PBXTextBookmark */ = 6DAE6E111306F71C00E17A36 /* PBXTextBookmark */;
+			6DAE6E121306F71C00E17A36 /* PBXTextBookmark */ = 6DAE6E121306F71C00E17A36 /* PBXTextBookmark */;
+			6DAE6E131306F71C00E17A36 /* PBXTextBookmark */ = 6DAE6E131306F71C00E17A36 /* PBXTextBookmark */;
+			6DAE6E141306F71C00E17A36 /* PlistBookmark */ = 6DAE6E141306F71C00E17A36 /* PlistBookmark */;
+			6DAE6E151306F71C00E17A36 /* PBXTextBookmark */ = 6DAE6E151306F71C00E17A36 /* PBXTextBookmark */;
+			6DAE6E161306F71C00E17A36 /* PBXTextBookmark */ = 6DAE6E161306F71C00E17A36 /* PBXTextBookmark */;
+			6DAE6E171306F71C00E17A36 /* PBXTextBookmark */ = 6DAE6E171306F71C00E17A36 /* PBXTextBookmark */;
+			6DAE6E181306F71C00E17A36 /* PBXTextBookmark */ = 6DAE6E181306F71C00E17A36 /* PBXTextBookmark */;
+			6DAE6E191306F71C00E17A36 /* PBXTextBookmark */ = 6DAE6E191306F71C00E17A36 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 6DAE6E0C1306F71100E17A36 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	3D2B06CB117B817A00DB008D /* AIBSettingsViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1160, 557}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 761}";
+		};
+	};
+	3D2B06CC117B817A00DB008D /* AIBSettingsViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 3458}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1521}";
+		};
+	};
+	3D2B1AF21182393500DB008D /* AIBWorkflow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 557}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1078}";
+		};
+	};
+	3D2B1AF31182393500DB008D /* AIBWorkflow.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1482, 2314}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 865}";
+		};
+	};
+	3D2B1AF41182393500DB008D /* AIBParser.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 557}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 828}";
+		};
+	};
+	3D2B1AF51182393500DB008D /* AIBParser.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 2392}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1240}";
+		};
+	};
+	3D47A0C111765BFF0032F54A /* BankBalanceViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 923}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 729}";
+		};
+	};
+	3D47A0C211765BFF0032F54A /* BankBalanceViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 7007}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 661}";
+		};
+	};
+	3DC499C31191F03900BC0FE0 /* BankBalanceAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 374}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 478}";
+		};
+	};
+	3DC499C41191F03900BC0FE0 /* BankBalanceAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1006, 897}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 739}";
+		};
+	};
+	6DAE6DFF1306F6EE00E17A36 /* BankBalance */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = BankBalance;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	6DAE6E0C1306F71100E17A36 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	6DAE6E0D1306F71100E17A36 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6DAE6E0E1306F71C00E17A36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D2B1AF41182393500DB008D /* AIBParser.h */;
+		name = "AIBParser.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 828;
+		vrLoc = 0;
+	};
+	6DAE6E0F1306F71C00E17A36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D2B1AF51182393500DB008D /* AIBParser.m */;
+		name = "AIBParser.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1240;
+		vrLoc = 0;
+	};
+	6DAE6E101306F71C00E17A36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D2B06CB117B817A00DB008D /* AIBSettingsViewController.h */;
+		name = "AIBSettingsViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 761;
+		vrLoc = 0;
+	};
+	6DAE6E111306F71C00E17A36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D2B06CC117B817A00DB008D /* AIBSettingsViewController.m */;
+		name = "AIBSettingsViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1521;
+		vrLoc = 0;
+	};
+	6DAE6E121306F71C00E17A36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D2B1AF21182393500DB008D /* AIBWorkflow.h */;
+		name = "AIBWorkflow.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1078;
+		vrLoc = 0;
+	};
+	6DAE6E131306F71C00E17A36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D2B1AF31182393500DB008D /* AIBWorkflow.m */;
+		name = "AIBWorkflow.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 865;
+		vrLoc = 0;
+	};
+	6DAE6E141306F71C00E17A36 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 3D4EAA8B119C847700C140EE /* BankBalance-Info copy.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/damien/dev/ios/BankBalance/BankBalance-Info copy.plist";
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	6DAE6E151306F71C00E17A36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3DC499C31191F03900BC0FE0 /* BankBalanceAppDelegate.h */;
+		name = "BankBalanceAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 478;
+		vrLoc = 0;
+	};
+	6DAE6E161306F71C00E17A36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D47A0C211765BFF0032F54A /* BankBalanceViewController.m */;
+		name = "BankBalanceViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 661;
+		vrLoc = 0;
+	};
+	6DAE6E171306F71C00E17A36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3D47A0C111765BFF0032F54A /* BankBalanceViewController.h */;
+		name = "BankBalanceViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 729;
+		vrLoc = 0;
+	};
+	6DAE6E181306F71C00E17A36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3DC499C41191F03900BC0FE0 /* BankBalanceAppDelegate.m */;
+		name = "BankBalanceAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 739;
+		vrLoc = 0;
+	};
+	6DAE6E191306F71C00E17A36 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 3DC499C41191F03900BC0FE0 /* BankBalanceAppDelegate.m */;
+		name = "BankBalanceAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 739;
+		vrLoc = 0;
+	};
+}

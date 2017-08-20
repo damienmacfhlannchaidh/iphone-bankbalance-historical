@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		3D249E92118DF1E6000AC897 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D249E91118DF1E6000AC897 /* Icon.png */; };
+		3D2B06CD117B817A00DB008D /* AIBSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B06CC117B817A00DB008D /* AIBSettingsViewController.m */; };
+		3D2B0A5D117B9CF700DB008D /* PreferenceEntryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B0A5C117B9CF700DB008D /* PreferenceEntryViewController.m */; };
+		3D2B0A99117BA58300DB008D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2B0A98117BA58300DB008D /* Default.png */; };
+		3D2B0BB3117CD7A300DB008D /* EntryBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2B0BB2117CD7A300DB008D /* EntryBox.png */; };
+		3D2B0FD6117E482400DB008D /* PINBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2B0FD5117E482400DB008D /* PINBox.png */; };
+		3D2B0FD8117E49A200DB008D /* RedButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D2B0FD7117E49A200DB008D /* RedButton.png */; };
+		3D2B12C4117E5F7800DB008D /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B12C3117E5F7800DB008D /* PinViewController.m */; };
+		3D2B13B0117E66CD00DB008D /* PinBoxesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B13AF117E66CD00DB008D /* PinBoxesViewController.m */; };
+		3D2B196211822F0C00DB008D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B196111822F0C00DB008D /* MainViewController.m */; };
+		3D2B1AC01182356500DB008D /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B1ABB1182356500DB008D /* XPathQuery.m */; };
+		3D2B1AC11182356500DB008D /* DocumentElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B1ABE1182356500DB008D /* DocumentElement.m */; };
+		3D2B1AC21182356500DB008D /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B1ABF1182356500DB008D /* Document.m */; };
+		3D2B1AF61182393500DB008D /* AIBCustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B1AF11182393500DB008D /* AIBCustomer.m */; };
+		3D2B1AF71182393500DB008D /* AIBWorkflow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B1AF31182393500DB008D /* AIBWorkflow.m */; };
+		3D2B1AF81182393500DB008D /* AIBParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B1AF51182393500DB008D /* AIBParser.m */; };
+		3D2B1B011182397D00DB008D /* Workflow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B1B001182397D00DB008D /* Workflow.m */; };
+		3D2B1B061182399100DB008D /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B1B051182399100DB008D /* Account.m */; };
+		3D2B1D8E1182E6D600DB008D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2B1D8D1182E6D600DB008D /* AudioToolbox.framework */; };
+		3D2B1E5B1182EDBE00DB008D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2B1E5A1182EDBE00DB008D /* CFNetwork.framework */; };
+		3D2B1EEF1182F4E100DB008D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B1EEE1182F4E100DB008D /* Reachability.m */; };
+		3D2B1EF31182F4FB00DB008D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2B1EF21182F4FB00DB008D /* SystemConfiguration.framework */; };
+		3D2B215E118312A800DB008D /* ProgressBarUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B215D118312A800DB008D /* ProgressBarUpdate.m */; };
+		3D2B2B171183A6BE00DB008D /* BOISettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B2B161183A6BE00DB008D /* BOISettingsViewController.m */; };
+		3D2B2B4D1183A88A00DB008D /* BOIWorkflow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B2B481183A88A00DB008D /* BOIWorkflow.m */; };
+		3D2B2B4E1183A88A00DB008D /* BOICustomer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B2B4A1183A88A00DB008D /* BOICustomer.m */; };
+		3D2B2B4F1183A88A00DB008D /* BOIParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B2B4C1183A88A00DB008D /* BOIParser.m */; };
+		3D47A0C311765BFF0032F54A /* BankBalanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D47A0C211765BFF0032F54A /* BankBalanceViewController.m */; };
+		3D47A0E611765CED0032F54A /* ProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D47A0E511765CED0032F54A /* ProgressBarView.m */; };
+		3D47A0EB11765D0E0032F54A /* BankBalance.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D47A0EA11765D0E0032F54A /* BankBalance.m */; };
+		3D47A0F311765D290032F54A /* KeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D47A0F211765D290032F54A /* KeychainUtils.m */; };
+		3D47A11011765D770032F54A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D47A10F11765D770032F54A /* Security.framework */; };
+		3D47A15711765F840032F54A /* DebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D47A15411765F840032F54A /* DebugLog.m */; };
+		3D47A15811765F840032F54A /* InfoLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D47A15611765F840032F54A /* InfoLog.m */; };
+		3D47A4341176775D0032F54A /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D47A4331176775D0032F54A /* SettingsViewController.m */; };
+		3DC499C51191F03900BC0FE0 /* BankBalanceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC499C41191F03900BC0FE0 /* BankBalanceAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* Bank Balance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bank Balance.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* BankBalance_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankBalance_Prefix.pch; sourceTree = "<group>"; };
+		3D249E91118DF1E6000AC897 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3D2B06CB117B817A00DB008D /* AIBSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIBSettingsViewController.h; sourceTree = "<group>"; };
+		3D2B06CC117B817A00DB008D /* AIBSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIBSettingsViewController.m; sourceTree = "<group>"; };
+		3D2B0A5B117B9CF700DB008D /* PreferenceEntryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferenceEntryViewController.h; sourceTree = "<group>"; };
+		3D2B0A5C117B9CF700DB008D /* PreferenceEntryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferenceEntryViewController.m; sourceTree = "<group>"; };
+		3D2B0A98117BA58300DB008D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3D2B0BB2117CD7A300DB008D /* EntryBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EntryBox.png; sourceTree = "<group>"; };
+		3D2B0FD5117E482400DB008D /* PINBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PINBox.png; sourceTree = "<group>"; };
+		3D2B0FD7117E49A200DB008D /* RedButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedButton.png; sourceTree = "<group>"; };
+		3D2B12C2117E5F7800DB008D /* PinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinViewController.h; sourceTree = "<group>"; };
+		3D2B12C3117E5F7800DB008D /* PinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinViewController.m; sourceTree = "<group>"; };
+		3D2B13AE117E66CD00DB008D /* PinBoxesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinBoxesViewController.h; sourceTree = "<group>"; };
+		3D2B13AF117E66CD00DB008D /* PinBoxesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinBoxesViewController.m; sourceTree = "<group>"; };
+		3D2B196011822F0C00DB008D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3D2B196111822F0C00DB008D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3D2B1ABA1182356500DB008D /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		3D2B1ABB1182356500DB008D /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		3D2B1ABC1182356500DB008D /* Document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		3D2B1ABD1182356500DB008D /* DocumentElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DocumentElement.h; sourceTree = "<group>"; };
+		3D2B1ABE1182356500DB008D /* DocumentElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DocumentElement.m; sourceTree = "<group>"; };
+		3D2B1ABF1182356500DB008D /* Document.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		3D2B1AF01182393500DB008D /* AIBCustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIBCustomer.h; sourceTree = "<group>"; };
+		3D2B1AF11182393500DB008D /* AIBCustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIBCustomer.m; sourceTree = "<group>"; };
+		3D2B1AF21182393500DB008D /* AIBWorkflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIBWorkflow.h; sourceTree = "<group>"; };
+		3D2B1AF31182393500DB008D /* AIBWorkflow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIBWorkflow.m; sourceTree = "<group>"; };
+		3D2B1AF41182393500DB008D /* AIBParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIBParser.h; sourceTree = "<group>"; };
+		3D2B1AF51182393500DB008D /* AIBParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIBParser.m; sourceTree = "<group>"; };
+		3D2B1AFF1182397D00DB008D /* Workflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Workflow.h; sourceTree = "<group>"; };
+		3D2B1B001182397D00DB008D /* Workflow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Workflow.m; sourceTree = "<group>"; };
+		3D2B1B041182399100DB008D /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		3D2B1B051182399100DB008D /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		3D2B1D8D1182E6D600DB008D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3D2B1E5A1182EDBE00DB008D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		3D2B1EED1182F4E100DB008D /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		3D2B1EEE1182F4E100DB008D /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		3D2B1EF21182F4FB00DB008D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3D2B215C118312A800DB008D /* ProgressBarUpdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressBarUpdate.h; sourceTree = "<group>"; };
+		3D2B215D118312A800DB008D /* ProgressBarUpdate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressBarUpdate.m; sourceTree = "<group>"; };
+		3D2B2B151183A6BE00DB008D /* BOISettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOISettingsViewController.h; sourceTree = "<group>"; };
+		3D2B2B161183A6BE00DB008D /* BOISettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOISettingsViewController.m; sourceTree = "<group>"; };
+		3D2B2B471183A88A00DB008D /* BOIWorkflow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOIWorkflow.h; sourceTree = "<group>"; };
+		3D2B2B481183A88A00DB008D /* BOIWorkflow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOIWorkflow.m; sourceTree = "<group>"; };
+		3D2B2B491183A88A00DB008D /* BOICustomer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOICustomer.h; sourceTree = "<group>"; };
+		3D2B2B4A1183A88A00DB008D /* BOICustomer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOICustomer.m; sourceTree = "<group>"; };
+		3D2B2B4B1183A88A00DB008D /* BOIParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOIParser.h; sourceTree = "<group>"; };
+		3D2B2B4C1183A88A00DB008D /* BOIParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOIParser.m; sourceTree = "<group>"; };
+		3D47A0C111765BFF0032F54A /* BankBalanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankBalanceViewController.h; sourceTree = "<group>"; };
+		3D47A0C211765BFF0032F54A /* BankBalanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankBalanceViewController.m; sourceTree = "<group>"; };
+		3D47A0E411765CED0032F54A /* ProgressBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressBarView.h; sourceTree = "<group>"; };
+		3D47A0E511765CED0032F54A /* ProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressBarView.m; sourceTree = "<group>"; };
+		3D47A0E911765D0E0032F54A /* BankBalance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankBalance.h; sourceTree = "<group>"; };
+		3D47A0EA11765D0E0032F54A /* BankBalance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankBalance.m; sourceTree = "<group>"; };
+		3D47A0F111765D290032F54A /* KeychainUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainUtils.h; sourceTree = "<group>"; };
+		3D47A0F211765D290032F54A /* KeychainUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainUtils.m; sourceTree = "<group>"; };
+		3D47A10F11765D770032F54A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3D47A15311765F840032F54A /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
+		3D47A15411765F840032F54A /* DebugLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugLog.m; sourceTree = "<group>"; };
+		3D47A15511765F840032F54A /* InfoLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoLog.h; sourceTree = "<group>"; };
+		3D47A15611765F840032F54A /* InfoLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoLog.m; sourceTree = "<group>"; };
+		3D47A4321176775D0032F54A /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		3D47A4331176775D0032F54A /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		3D4EAA8B119C847700C140EE /* BankBalance-Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BankBalance-Info copy.plist"; sourceTree = "<group>"; };
+		3DC499C31191F03900BC0FE0 /* BankBalanceAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BankBalanceAppDelegate.h; sourceTree = "<group>"; };
+		3DC499C41191F03900BC0FE0 /* BankBalanceAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BankBalanceAppDelegate.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* BankBalance-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "BankBalance-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				3D47A11011765D770032F54A /* Security.framework in Frameworks */,
+				3D2B1D8E1182E6D600DB008D /* AudioToolbox.framework in Frameworks */,
+				3D2B1E5B1182EDBE00DB008D /* CFNetwork.framework in Frameworks */,
+				3D2B1EF31182F4FB00DB008D /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Bank Balance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				3D47A0E911765D0E0032F54A /* BankBalance.h */,
+				3D47A0EA11765D0E0032F54A /* BankBalance.m */,
+				3D2B1AAF1182351100DB008D /* UI */,
+				3D2B1AB81182353E00DB008D /* Workflow */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				3D47A0F011765D290032F54A /* Security */,
+				3D47A15211765F840032F54A /* Logging */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+			);
+			comments = "Damien Mac Fhlannchaidh Cubed Bank Balance Application v1.0";
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3D2B1EEC1182F4E100DB008D /* Reachability */,
+				3DC499C31191F03900BC0FE0 /* BankBalanceAppDelegate.h */,
+				3DC499C41191F03900BC0FE0 /* BankBalanceAppDelegate.m */,
+				32CA4F630368D1EE00C91783 /* BankBalance_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D2B01EE117B571B00DB008D /* Images */,
+				8D1107310486CEB800E47090 /* BankBalance-Info.plist */,
+				3D4EAA8B119C847700C140EE /* BankBalance-Info copy.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D2B1D8D1182E6D600DB008D /* AudioToolbox.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				3D2B1EF21182F4FB00DB008D /* SystemConfiguration.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				3D47A10F11765D770032F54A /* Security.framework */,
+				3D2B1E5A1182EDBE00DB008D /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D2B01EE117B571B00DB008D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3D249E91118DF1E6000AC897 /* Icon.png */,
+				3D2B0FD7117E49A200DB008D /* RedButton.png */,
+				3D2B0A98117BA58300DB008D /* Default.png */,
+				3D2B0BB2117CD7A300DB008D /* EntryBox.png */,
+				3D2B0FD5117E482400DB008D /* PINBox.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		3D2B11F2117E595100DB008D /* PIN View */ = {
+			isa = PBXGroup;
+			children = (
+				3D2B12C2117E5F7800DB008D /* PinViewController.h */,
+				3D2B12C3117E5F7800DB008D /* PinViewController.m */,
+				3D2B13AE117E66CD00DB008D /* PinBoxesViewController.h */,
+				3D2B13AF117E66CD00DB008D /* PinBoxesViewController.m */,
+			);
+			name = "PIN View";
+			sourceTree = "<group>";
+		};
+		3D2B1AAF1182351100DB008D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3D47A0B811765BC90032F54A /* Main View */,
+				3D47A431117677210032F54A /* Settings View */,
+				3D2B11F2117E595100DB008D /* PIN View */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		3D2B1AB81182353E00DB008D /* Workflow */ = {
+			isa = PBXGroup;
+			children = (
+				3D2B1B041182399100DB008D /* Account.h */,
+				3D2B1B051182399100DB008D /* Account.m */,
+				3D2B1AFF1182397D00DB008D /* Workflow.h */,
+				3D2B1B001182397D00DB008D /* Workflow.m */,
+				3D2B1AEF1182393500DB008D /* AIB */,
+				3D2B2B461183A87700DB008D /* BOI */,
+				3D2B1AB91182356500DB008D /* HTML Parser */,
+			);
+			name = Workflow;
+			sourceTree = "<group>";
+		};
+		3D2B1AB91182356500DB008D /* HTML Parser */ = {
+			isa = PBXGroup;
+			children = (
+				3D2B1ABA1182356500DB008D /* XPathQuery.h */,
+				3D2B1ABB1182356500DB008D /* XPathQuery.m */,
+				3D2B1ABC1182356500DB008D /* Document.h */,
+				3D2B1ABD1182356500DB008D /* DocumentElement.h */,
+				3D2B1ABE1182356500DB008D /* DocumentElement.m */,
+				3D2B1ABF1182356500DB008D /* Document.m */,
+			);
+			name = "HTML Parser";
+			sourceTree = "<group>";
+		};
+		3D2B1AEF1182393500DB008D /* AIB */ = {
+			isa = PBXGroup;
+			children = (
+				3D2B1AF01182393500DB008D /* AIBCustomer.h */,
+				3D2B1AF11182393500DB008D /* AIBCustomer.m */,
+				3D2B1AF21182393500DB008D /* AIBWorkflow.h */,
+				3D2B1AF31182393500DB008D /* AIBWorkflow.m */,
+				3D2B1AF41182393500DB008D /* AIBParser.h */,
+				3D2B1AF51182393500DB008D /* AIBParser.m */,
+			);
+			name = AIB;
+			sourceTree = "<group>";
+		};
+		3D2B1EEC1182F4E100DB008D /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				3D2B1EED1182F4E100DB008D /* Reachability.h */,
+				3D2B1EEE1182F4E100DB008D /* Reachability.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		3D2B2B461183A87700DB008D /* BOI */ = {
+			isa = PBXGroup;
+			children = (
+				3D2B2B471183A88A00DB008D /* BOIWorkflow.h */,
+				3D2B2B481183A88A00DB008D /* BOIWorkflow.m */,
+				3D2B2B491183A88A00DB008D /* BOICustomer.h */,
+				3D2B2B4A1183A88A00DB008D /* BOICustomer.m */,
+				3D2B2B4B1183A88A00DB008D /* BOIParser.h */,
+				3D2B2B4C1183A88A00DB008D /* BOIParser.m */,
+			);
+			name = BOI;
+			sourceTree = "<group>";
+		};
+		3D47A0B811765BC90032F54A /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				3D47A0C111765BFF0032F54A /* BankBalanceViewController.h */,
+				3D47A0C211765BFF0032F54A /* BankBalanceViewController.m */,
+				3D47A0E411765CED0032F54A /* ProgressBarView.h */,
+				3D47A0E511765CED0032F54A /* ProgressBarView.m */,
+				3D2B196011822F0C00DB008D /* MainViewController.h */,
+				3D2B196111822F0C00DB008D /* MainViewController.m */,
+				3D2B215C118312A800DB008D /* ProgressBarUpdate.h */,
+				3D2B215D118312A800DB008D /* ProgressBarUpdate.m */,
+			);
+			name = "Main View";
+			sourceTree = "<group>";
+		};
+		3D47A0F011765D290032F54A /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				3D47A0F111765D290032F54A /* KeychainUtils.h */,
+				3D47A0F211765D290032F54A /* KeychainUtils.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		3D47A15211765F840032F54A /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				3D47A15311765F840032F54A /* DebugLog.h */,
+				3D47A15411765F840032F54A /* DebugLog.m */,
+				3D47A15511765F840032F54A /* InfoLog.h */,
+				3D47A15611765F840032F54A /* InfoLog.m */,
+			);
+			name = Logging;
+			sourceTree = "<group>";
+		};
+		3D47A431117677210032F54A /* Settings View */ = {
+			isa = PBXGroup;
+			children = (
+				3D47A4321176775D0032F54A /* SettingsViewController.h */,
+				3D47A4331176775D0032F54A /* SettingsViewController.m */,
+				3D2B06CB117B817A00DB008D /* AIBSettingsViewController.h */,
+				3D2B06CC117B817A00DB008D /* AIBSettingsViewController.m */,
+				3D2B0A5B117B9CF700DB008D /* PreferenceEntryViewController.h */,
+				3D2B0A5C117B9CF700DB008D /* PreferenceEntryViewController.m */,
+				3D2B2B151183A6BE00DB008D /* BOISettingsViewController.h */,
+				3D2B2B161183A6BE00DB008D /* BOISettingsViewController.m */,
+			);
+			name = "Settings View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* BankBalance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BankBalance" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BankBalance;
+			productName = BankBalance;
+			productReference = 1D6058910D05DD3D006BFB54 /* Bank Balance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Damien Mac Fhlannchaidh Cubed";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BankBalance" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* BankBalance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2B0A99117BA58300DB008D /* Default.png in Resources */,
+				3D2B0BB3117CD7A300DB008D /* EntryBox.png in Resources */,
+				3D2B0FD6117E482400DB008D /* PINBox.png in Resources */,
+				3D2B0FD8117E49A200DB008D /* RedButton.png in Resources */,
+				3D249E92118DF1E6000AC897 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				3D47A0C311765BFF0032F54A /* BankBalanceViewController.m in Sources */,
+				3D47A0E611765CED0032F54A /* ProgressBarView.m in Sources */,
+				3D47A0EB11765D0E0032F54A /* BankBalance.m in Sources */,
+				3D47A0F311765D290032F54A /* KeychainUtils.m in Sources */,
+				3D47A15711765F840032F54A /* DebugLog.m in Sources */,
+				3D47A15811765F840032F54A /* InfoLog.m in Sources */,
+				3D47A4341176775D0032F54A /* SettingsViewController.m in Sources */,
+				3D2B06CD117B817A00DB008D /* AIBSettingsViewController.m in Sources */,
+				3D2B0A5D117B9CF700DB008D /* PreferenceEntryViewController.m in Sources */,
+				3D2B12C4117E5F7800DB008D /* PinViewController.m in Sources */,
+				3D2B13B0117E66CD00DB008D /* PinBoxesViewController.m in Sources */,
+				3D2B196211822F0C00DB008D /* MainViewController.m in Sources */,
+				3D2B1AC01182356500DB008D /* XPathQuery.m in Sources */,
+				3D2B1AC11182356500DB008D /* DocumentElement.m in Sources */,
+				3D2B1AC21182356500DB008D /* Document.m in Sources */,
+				3D2B1AF61182393500DB008D /* AIBCustomer.m in Sources */,
+				3D2B1AF71182393500DB008D /* AIBWorkflow.m in Sources */,
+				3D2B1AF81182393500DB008D /* AIBParser.m in Sources */,
+				3D2B1B011182397D00DB008D /* Workflow.m in Sources */,
+				3D2B1B061182399100DB008D /* Account.m in Sources */,
+				3D2B1EEF1182F4E100DB008D /* Reachability.m in Sources */,
+				3D2B215E118312A800DB008D /* ProgressBarUpdate.m in Sources */,
+				3D2B2B171183A6BE00DB008D /* BOISettingsViewController.m in Sources */,
+				3D2B2B4D1183A88A00DB008D /* BOIWorkflow.m in Sources */,
+				3D2B2B4E1183A88A00DB008D /* BOICustomer.m in Sources */,
+				3D2B2B4F1183A88A00DB008D /* BOIParser.m in Sources */,
+				3DC499C51191F03900BC0FE0 /* BankBalanceAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BankBalance_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/**";
+				INFOPLIST_FILE = "BankBalance-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "Bank Balance";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BankBalance_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/libxml2/**";
+				INFOPLIST_FILE = "BankBalance-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = "Bank Balance";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					INFO,
+					DEBUG,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = INFO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/usr/include/libxml2/**";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-lxml2";
+				PREBINDING = NO;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BankBalance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "BankBalance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

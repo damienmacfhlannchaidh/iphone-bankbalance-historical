@@ -1,0 +1,21 @@
+/*
+ *  BankBalance_prefix.pch
+ *  BankBalance
+ *
+ *  Created by Damien Mac Fhlannchaidh on 05/05/2010.
+ *  Copyright 2010 Damien Mac Fhlannchaidh Cubed. All rights reserved.
+ *
+ */
+
+
+//
+// Prefix header for all source files of the 'BankBalance' target in the 'BankBalance' project
+//
+
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <UIKit/UIKit.h>
+	#import "DebugLog.h"
+	#import "InfoLog.h"
+#endif
